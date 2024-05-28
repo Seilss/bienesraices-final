@@ -2,8 +2,6 @@
 
 // INCLUDES
 
-require 'includes/funciones.php';
-incluirTemplate('header');
 require_once 'includes/db.php';
 
 if ($conexion->connect_error) {
