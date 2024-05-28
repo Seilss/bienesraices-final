@@ -1,3 +1,9 @@
+<?php
+
+    session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,6 +32,13 @@
                         <a href="anuncios.php">Anuncios</a>
                         <a href="blog.php">Blog</a>
                         <a href="contacto.php">Contacto</a>
+                        <?php
+                    
+                        if (isset($_SESSION['username'])) {
+                            echo "<a href='logout.php'>Desconectarse</a>";
+                        }
+
+                        ?>
                     </nav>
                 </div>
    
