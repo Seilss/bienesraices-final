@@ -8,7 +8,7 @@ require_once 'includes/db.php';
 
 ?>
     <h2>Login</h2>
-    <form action="procesarLogin.php" method="post">
+    <form action="procesarLogin.php" method="post" class="formulario">
         <label for="username">Usuario:</label>
         <input type="text" name="username" required>
         <br>
@@ -19,3 +19,8 @@ require_once 'includes/db.php';
     </form>
 </body>
 </html>
+
+
+<?php
+    incluirTemplate('footer');
+?>

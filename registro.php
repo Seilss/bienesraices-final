@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ?>
 
-    <form action="registro.php" method="post">
+    <form action="registro.php" method="post" class="formulario">
         <div>
             <label for="username">Nombre de Usuario:</label>
             <input type="text" name="username" id="username" required>
@@ -39,3 +39,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </form>
 </body>
 </html>
+
+
+<?php
+    incluirTemplate('footer');
+?>
