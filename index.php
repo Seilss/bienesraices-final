@@ -27,7 +27,7 @@
     </main>
 
     <section class="seccion contenedor">
-        <h2>Casas y Depas en Venta</h2>
+        <h2>Casas en Venta</h2>
 
         <div class="contenedor-anuncios">
             <div class="anuncio">
@@ -57,7 +57,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncio1.php" class="boton-amarillo-block">
+                    <a href="anuncio.php?id=1" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div><!--.contenido-anuncio-->
@@ -72,7 +72,7 @@
 
                 <div class="contenido-anuncio">
                     <h3>Casa terminados de lujo</h3>
-                    <p>Una casa moderna con acabados de lujo, ubicada en una zona exclusiva. Este hogar combina la sofisticación con la funcionalidad, ofreciendo un espacio ideal tanto para el entretenimiento como para el descanso. Grandes ventanales permiten la entrada de luz natural, creando un ambiente cálido y acogedor.</p>
+                    <p>Una casa moderna con acabados de lujo, ubicada en una zona exclusiva. Este hogar combina la sofisticación con la funcionalidad, ofreciendo un espacio ideal tanto para el entretenimiento como para el descanso. Grandes ventanales permiten la entrada de luz natural y acogedor.</p>
                     <p class="precio">$3,100,000</p>
 
                     <ul class="iconos-caracteristicas">
@@ -90,7 +90,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncio2.php" class="boton-amarillo-block">
+                    <a href="anuncio.php?id=2" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div><!--.contenido-anuncio-->
@@ -123,7 +123,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncio3.php" class="boton-amarillo-block">
+                    <a href="anuncio.php?id=3" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div><!--.contenido-anuncio-->
@@ -156,7 +156,7 @@
                 </div>
 
                 <div class="texto-entrada">
-                    <a href="entrada.php">
+                    <a href="entrada2.php">
                         <h4>Terraza en el techo de tu casa</h4>
                         <p class="informacion-meta">Escrito el: <span>23/05/2024</span> por: <span>Admin</span> </p>
 
