@@ -11,6 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ini_set('upload_max_filesize', '20M');
   ini_set('post_max_size', '20M');
 
+  // Si actualizas una vivienda existente.
+  $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+
   // Recogiendo datos del formulario.
   $titulo = $_POST['titulo'];
   $descripcion = $_POST['descripcion'];
@@ -34,8 +37,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   move_uploaded_file($_FILES["imagen"]["tmp_name"], $target_file);
 
   // Preparamos la query.
-  $sql = "INSERT INTO viviendas (titulo, descripcion, subtitulo, precio, aseos, garaje, dormitorios, fotos) 
-  VALUES ('$titulo', '$description', '$subtitulo', '$precio', '$aseos', '$garajes', '$dormitorios', '$imagen_name')";
+
+  if ($id == 0) {
+    $sql = "INSERT INTO viviendas (titulo, descripcion, subtitulo, precio, aseos, garaje, dormitorios, fotos) 
+    VALUES ('$titulo', '$descripcion', '$subtitulo', '$precio', '$aseos', '$garajes', '$dormitorios', '$imagen_name')";
+  } elseif ($id > 0) {
+    $sql = "UPDATE viviendas 
+    SET titulo = '$titulo',
+      descripcion = '$descripcion',
+      subtitulo = '$subtitulo',
+      precio = '$precio',
+      aseos = '$aseos',
+      garaje = '$garajes',
+      dormitorios = '$dormitorios',
+      fotos = 'UPDATE'
+    WHERE ID = $id";
+  }
+  
 
   //Ejecutamos la query.
   $conexion->query($sql);

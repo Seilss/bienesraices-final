@@ -17,7 +17,7 @@
     if ($result->num_rows > 0) {
         // Itera sobre cada fila de resultados
         while($row = $result->fetch_assoc()) {
-            echo "<h1>" . htmlspecialchars($row["titulo"]) . "</h1>
+            $html = "<h1>" . htmlspecialchars($row["titulo"]) . "</h1>
 
         <picture>
             <source srcset='build/img/". htmlspecialchars($row["fotos"]) .".webp' type='image/webp'>
@@ -40,8 +40,20 @@
                     <p>". htmlspecialchars($row["dormitorios"]) ."</p>
                 </li>
             </ul>
-          <p>"  . htmlspecialchars($row["descripcion"]) . "</p>
+          <p>"  . htmlspecialchars($row["descripcion"]) . "</p>";
+
+          if (isset($_SESSION['username'])) {
+            $html = $html . "<div class='edit-vivienda'>
+            <a href='edit-vivienda.php?id=" . $row["id"] . "' class='boton-amarillo-block'>
+                Editar Propiedad
+            </a>
+          </div>
         </div>";
+          } else {
+            $html = $html . "</div>";
+          }
+
+          echo $html;
         }
     } else {
         echo "<tr><td colspan='3'>Elemento no encontrado</td></tr>";
