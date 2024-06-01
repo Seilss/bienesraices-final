@@ -35,7 +35,11 @@
                         <?php
                     
                         if (isset($_SESSION['username'])) {
+                            echo "<a href='add-vivienda.php'>Añadir vivienda</a>";
                             echo "<a href='logout.php'>Desconectarse</a>";
+                        } else {
+                            echo "<a href='registro.php'>Registrarse</a>";
+                            echo "<a href='login.php'>Login</a>";
                         }
 
                         ?>
