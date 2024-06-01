@@ -8,7 +8,7 @@
 
     <h1>Crea una nueva vivienda</h1>
 
-    <form action="procesarVivienda.php" method="post" class="formulario">
+    <form action="procesarVivienda.php" method="post" class="formulario" enctype="multipart/form-data">
         <fieldset>
 
             <label for="nombre">Título</label>
@@ -31,6 +31,10 @@
 
             <label for="dormitorios">Número de dormitorios:</label>
             <input type="dormitorios" name="dormitorios" id="dormitorios" required></input>
+
+            <label for="imagen">Imagen de la vivienda:</label>
+            <input type="file" name="imagen" id="imagen" accept="image/jpg">
+            <span>Sube ficheros con formato .jpg</span>
 
             
         </fieldset>
