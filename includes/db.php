@@ -1,8 +1,8 @@
 <?php
 // Conectar a la base de datos
-$servidor = "localhost";
+$servidor = "mysql";
 $usuario = "root";
-$password = "alberto";
+$password = "root";
 $basedatos = "bienesraices";
 
 // Crear conexión
