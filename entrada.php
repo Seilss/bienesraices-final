@@ -14,13 +14,14 @@
             <img loading="lazy" src="build/img/destacada2.jpg" alt="imagen de la propiedad">
         </picture>
 
-        <p class="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+        <p class="informacion-meta">Escrito el: <span>23/05/2024</span> por: <span>Admin</span> </p>
 
 
         <div class="resumen-propiedad">
-            <p>Proin consequat viverra sapien, malesuada tempor tortor feugiat vitae. In dictum felis et nunc aliquet molestie. Proin tristique commodo felis, sed auctor elit auctor pulvinar. Nunc porta, nibh quis convallis sollicitudin, arcu nisl semper mi, vitae sagittis lorem dolor non risus. Vivamus accumsan maximus est, eu mollis mi. Proin id nisl vel odio semper hendrerit. Nunc porta in justo finibus tempor. Suspendisse lobortis dolor quis elit suscipit molestie. Sed condimentum, erat at tempor finibus, urna nisi fermentum est, a dignissim nisi libero vel est. Donec et imperdiet augue. Curabitur malesuada sodales congue. Suspendisse potenti. Ut sit amet convallis nisi.</p>
+            <p>Descubre cómo transformar tu hogar en un espacio acogedor y estilizado con nuestra guía de decoración. Desde la selección de colores hasta la elección de muebles, te proporcionamos consejos prácticos y tendencias actuales para cada rincón de tu casa. Aprende a combinar elementos clásicos y modernos, creando ambientes únicos y personalizados que reflejen tu personalidad y gusto.</p>
 
-            <p>Aliquam lectus magna, luctus vel gravida nec, iaculis ut augue. Praesent ac enim lorem. Quisque ac dignissim sem, non condimentum orci. Morbi a iaculis neque, ac euismod felis. Fusce augue quam, fermentum sed turpis nec, hendrerit dapibus ante. Cras mattis laoreet nibh, quis tincidunt odio fermentum vel. Nulla facilisi.</p>
+            <p>Además, exploraremos la importancia de la iluminación adecuada y cómo ésta puede cambiar por completo el ambiente de una habitación. Te enseñaremos a utilizar accesorios decorativos, como cojines, alfombras y obras de arte, para añadir toques finales que hagan de tu hogar un lugar especial. No importa el tamaño de tu espacio, con nuestras recomendaciones podrás maximizar su potencial y crear un entorno que no solo sea estéticamente agradable, sino también funcional y cómodo para vivir.</p>
+            <h3>Póngase en contacto con nosotros para mas información.</h3>
         </div>
     </main>
 

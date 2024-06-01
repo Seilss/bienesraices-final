@@ -17,9 +17,9 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada2.php">
                     <h4>Terraza en el techo de tu casa</h4>
-                    <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+                    <p>Escrito el: <span>23/05/2024</span> por: <span>Admin</span> </p>
 
                     <p>
                         Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
@@ -38,9 +38,9 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Guía para la decoración de tu hogar</h4>
-                    <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+                    <p>Escrito el: <span>23/05/2024</span> por: <span>Admin</span> </p>
 
                     <p>
                         Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
@@ -59,12 +59,12 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
-                    <h4>Terraza en el techo de tu casa</h4>
-                    <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+                <a href="entrada3.php">
+                    <h4>Guía para la decoración de tu salón</h4>
+                    <p>Escrito el: <span>23/05/2024</span> por: <span>Admin</span> </p>
 
                     <p>
-                        Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
+                        Consejos para decorar su salón correctamente y dar emoción a su entorno
                     </p>
                 </a>
             </div>
@@ -80,12 +80,12 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
-                    <h4>Guía para la decoración de tu hogar</h4>
-                    <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+                <a href="entrada4.php">
+                    <h4>Guía para la decoración de tu dormitorio</h4>
+                    <p>Escrito el: <span>23/05/2024</span> por: <span>Admin</span> </p>
 
                     <p>
-                        Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
+                        transforma tu dormitorio en un santuario de tranquilidad y estilo con nuestra ayuda.
                     </p>
                 </a>
             </div>

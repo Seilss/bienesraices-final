@@ -22,9 +22,9 @@
                     25 Años de experiencia
                 </blockquote>
 
-                <p>Proin consequat viverra sapien, malesuada tempor tortor feugiat vitae. In dictum felis et nunc aliquet molestie. Proin tristique commodo felis, sed auctor elit auctor pulvinar. Nunc porta, nibh quis convallis sollicitudin, arcu nisl semper mi, vitae sagittis lorem dolor non risus. Vivamus accumsan maximus est, eu mollis mi. Proin id nisl vel odio semper hendrerit. Nunc porta in justo finibus tempor. Suspendisse lobortis dolor quis elit suscipit molestie. Sed condimentum, erat at tempor finibus, urna nisi fermentum est, a dignissim nisi libero vel est. Donec et imperdiet augue. Curabitur malesuada sodales congue. Suspendisse potenti. Ut sit amet convallis nisi.</p>
+                <p>Con más de dos décadas en la industria, nos hemos consolidado como líderes en el diseño y construcción de hogares de lujo. Nuestro compromiso con la excelencia y la innovación nos ha permitido crear espacios que no solo son visualmente impresionantes, sino también funcionales y duraderos. Cada proyecto que emprendemos refleja nuestra pasión por el detalle y la satisfacción del cliente.</p>
 
-                <p>Aliquam lectus magna, luctus vel gravida nec, iaculis ut augue. Praesent ac enim lorem. Quisque ac dignissim sem, non condimentum orci. Morbi a iaculis neque, ac euismod felis. Fusce augue quam, fermentum sed turpis nec, hendrerit dapibus ante. Cras mattis laoreet nibh, quis tincidunt odio fermentum vel. Nulla facilisi.</p>
+                <p>Desde nuestros inicios, hemos trabajado arduamente para construir una reputación basada en la confianza y la calidad. Nuestro equipo de profesionales altamente capacitados se dedica a entender y superar las expectativas de nuestros clientes, ofreciendo soluciones personalizadas y creativas. Ya sea que estés buscando construir la casa de tus sueños o remodelar tu espacio actual, estamos aquí para ayudarte en cada paso del camino, garantizando resultados que te encantarán.</p>
             </div>
         </div>
     </main>
@@ -36,17 +36,17 @@
             <div class="icono">
                 <img src="build/img/icono1.svg" alt="Icono seguridad" loading="lazy">
                 <h3>Seguridad</h3>
-                <p>Possimus, suscipit repudiandae. Autem deserunt aliquid deleniti sit minus consectetur obcaecati molestiae dolorem natus dolores reiciendis tempore, explicabo cum nobis laudantium. Voluptates?</p>
+                <p>Protegemos tus datos con la tecnología más avanzada del mercado. Nuestro compromiso es garantizar la confidencialidad, integridad y disponibilidad de tu información en todo momento. Con nosotros, puedes estar seguro de que tu seguridad es nuestra prioridad.</p>
             </div>
             <div class="icono">
                 <img src="build/img/icono2.svg" alt="Icono Precio" loading="lazy">
                 <h3>Precio</h3>
-                <p>Possimus, suscipit repudiandae. Autem deserunt aliquid deleniti sit minus consectetur obcaecati molestiae dolorem natus dolores reiciendis tempore, explicabo cum nobis laudantium. Voluptates?</p>
+                <p>Ofrecemos precios competitivos sin comprometer la calidad. Nuestras soluciones están diseñadas para ajustarse a tu presupuesto, proporcionando el mejor valor en el mercado. Disfruta de tarifas transparentes y sin sorpresas, optimizadas para satisfacer tus necesidades.</p>
             </div>
             <div class="icono">
                 <img src="build/img/icono3.svg" alt="Icono Tiempo" loading="lazy">
                 <h3>A Tiempo</h3>
-                <p>Possimus, suscipit repudiandae. Autem deserunt aliquid deleniti sit minus consectetur obcaecati molestiae dolorem natus dolores reiciendis tempore, explicabo cum nobis laudantium. Voluptates?</p>
+                <p>Valoramos tu tiempo y entendemos la importancia de cumplir con los plazos. Nos comprometemos a entregar todos nuestros proyectos puntualmente, sin excepciones. Con nuestra eficiencia y planificación meticulosa, puedes confiar en que tus objetivos se alcanzarán a tiempo.</p>
             </div>
         </div>
     </section>
