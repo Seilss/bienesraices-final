@@ -19,7 +19,7 @@
             // Itera sobre cada fila de resultados
             while($row = $result->fetch_assoc()) {
                 // Imprime los datos de cada fila en una fila de la tabla
-                echo "<div class='anuncio'>
+                $html = "<div class='anuncio'>
                     <picture>
                         <source srcset='build/img/" . htmlspecialchars($row["fotos"]) . ".webp' type='image/webp'>
                         <img loading='lazy' src='build/img/" . htmlspecialchars($row["fotos"]) . "' alt='anuncio'>
@@ -47,9 +47,19 @@
 
                         <a href='anuncio.php?id=" . $row["id"] . "' class='boton-amarillo-block'>
                             Ver Propiedad
-                        </a>
-                    </div>
-                </div>";
+                        </a>";
+                if (isset($_SESSION['username'])) {
+                    $html = $html 
+                    . "<a href='edit-vivienda.php?id=" 
+                    . $row["id"] 
+                    . "' class='boton-amarillo-block'>Editar Propiedad</a><a href='borrarVivienda.php?id=" 
+                    . $row["id"] . "' class='boton-amarillo-block'>Eliminar Propiedad</a>
+    
+                    </div></div>";
+                } else {
+                    $html = $html . "</div></div>";
+                }
+                echo $html;
             }
         } else {
             echo "<p>No se encontraron resultados</p>";
