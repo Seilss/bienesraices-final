@@ -48,7 +48,7 @@
                         <a href='anuncio.php?id=" . $row["id"] . "' class='boton-amarillo-block'>
                             Ver Propiedad
                         </a>";
-                if (isset($_SESSION['username'])) {
+                if (isset($_SESSION['username']) && $_SESSION['uid'] == 1) {
                     $html = $html 
                     . "<a href='edit-vivienda.php?id=" 
                     . $row["id"] 
