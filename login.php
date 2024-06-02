@@ -7,6 +7,7 @@ incluirTemplate('header');
 require_once 'includes/db.php';
 
 ?>
+<main class="contenedor seccion">
     <h2>Login</h2>
     <form action="procesarLogin.php" method="post" class="formulario">
         <label for="username">Usuario:</label>
@@ -15,11 +16,9 @@ require_once 'includes/db.php';
         <label for="password">Contraseña:</label>
         <input type="password" name="password" required>
         <br>
-        <input type="submit" value="Login">
-    </form>
-</body>
-</html>
-
+        <input type="submit" value="Login" class='boton-verde'>
+    </form>     
+</main>
 
 <?php
     incluirTemplate('footer');

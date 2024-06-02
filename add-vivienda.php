@@ -1,6 +1,15 @@
 <?php
     require 'includes/funciones.php';
     require_once 'includes/db.php';
+    require 'includes/denegarAcceso.php';
+
+    // Comprobamos si el usuario tiene acceso. Sino lo redirigimos a otra página.
+    $access = checkAccess();
+    if (!$access) {
+        header("Location: acceso-denegado.php");
+        exit;
+    }
+
     incluirTemplate('header');
 ?>
 
