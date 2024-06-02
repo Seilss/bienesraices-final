@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   // Preparamos la query.
   $sql = "INSERT INTO viviendas (titulo, descripcion, subtitulo, precio, aseos, garaje, dormitorios, fotos) 
-  VALUES ('$titulo', '$description', '$subtitulo', '$precio', '$aseos', '$garajes', '$dormitorios', '$imagen_name')";
+  VALUES ('$titulo', '$descripcion', '$subtitulo', '$precio', '$aseos', '$garajes', '$dormitorios', '$imagen_name')";
 
   //Ejecutamos la query.
   $conexion->query($sql);
