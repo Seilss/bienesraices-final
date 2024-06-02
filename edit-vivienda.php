@@ -43,16 +43,20 @@
 						<textarea type='subtitulo' name='subtitulo' id='subtitulo' required>" . htmlspecialchars($row['subtitulo']) . "</textarea>
 
 						<label for='precio'>Precio</label>
-						<input type='number' name='precio' id='precio' required value=" . htmlspecialchars($row['precio']) . ">
+						<input type='number' min='0' name='precio' id='precio' required value=" . htmlspecialchars($row['precio']) . ">
 
 						<label for='aseos'>Número de aseos:</label>
-						<input type='number' name='aseos' id='aseos' required value=" . htmlspecialchars($row['dormitorios']) . "></input>
+						<input type='number' min='0' name='aseos' id='aseos'  required value=" . htmlspecialchars($row['dormitorios']) . "></input>
 
 						<label for='garajes'>Número de garajes:</label>
-						<input type='garajes' name='garajes' id='garajes' required value=" . htmlspecialchars($row['garaje']) . "></input>
+						<input type='number' name='garajes' min='0' id='garajes' required value=" . htmlspecialchars($row['garaje']) . "></input>
 
 						<label for='dormitorios'>Número de dormitorios:</label>
-						<input type='dormitorios' name='dormitorios' id='dormitorios' required value=" . htmlspecialchars($row['dormitorios']) . "></input>
+						<input type='number' name='dormitorios' min='0' id='dormitorios' required value=" . htmlspecialchars($row['dormitorios']) . "></input>
+
+						<label for='imagen'>Imagen de la vivienda:</label>
+            <input type='file' name='imagen' id='imagen'>
+            <span>Sube una nueva imagen si quieres cambiarla. Si no subes nada se seguirá usando la antigua.</span>
 
 					</fieldset>
 
@@ -61,6 +65,7 @@
 			}
 		}
   ?>
+	</main>
         
 
 <?php

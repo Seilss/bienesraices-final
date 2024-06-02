@@ -30,21 +30,19 @@
             <textarea type="subtitulo" name="subtitulo" id="subtitulo" required></textarea>
 
             <label for="precio">Precio</label>
-            <input type="number" name="precio"id="precio" required>
+            <input type="number" min='0'  name="precio"id="precio" required>
 
             <label for="aseos">Número de aseos:</label>
-            <input type="number" name="aseos" id="aseos" required></input>
+            <input type="number" min='0'  name="aseos" id="aseos" required></input>
 
             <label for="garajes">Número de garajes:</label>
-            <input type="garajes" name="garajes" id="garajes" required></input>
+            <input type="number" min='0'  name="garajes" id="garajes" required></input>
 
             <label for="dormitorios">Número de dormitorios:</label>
-            <input type="dormitorios" name="dormitorios" id="dormitorios" required></input>
+            <input type="number" min='0'  name="dormitorios" id="dormitorios" required></input>
 
             <label for="imagen">Imagen de la vivienda:</label>
-            <input type="file" name="imagen" id="imagen" accept="image/jpg">
-            <span>Sube ficheros con formato .jpg</span>
-
+            <input type="file" name="imagen" id="imagen">
             
         </fieldset>
 
